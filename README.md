@@ -1,5 +1,6 @@
 # js-quiz-time
 ## Description
+This is a timed quiz that tests the user's knowledge of the fundamentals of JavaScript and stores high scores.
 
 ## User Story
 AS A coding boot camp student
