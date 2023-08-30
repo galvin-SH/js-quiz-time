@@ -29,3 +29,6 @@ The following images demonstrate the functionality of the application
 
 ## Credits
 N/A
+
+## Lisence
+License can be found in the ![project repo](https://github.com/galvin-SH/js-quiz-time)
