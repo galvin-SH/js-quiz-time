@@ -4,15 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/style.css">
     <script defer src="./assets/script.js"></script>
 </head>
 
 <header>
+    <h1>JavaScript Quiz!</h1>
+    <button id="start-button">Start</button>
+    <timer id="timer">t</timer>
 </header>
 
 <body>
+    <main>
+        <question-block id="qblock">
+            <questions id="questions">Questions</questions>
+            <answers id="answers">Answers</answers>
+        </question-block>
+        <answer-block id="ablock">
+            <ul>
+                <li><button class="answer-button" id="buttonA">A</button></li>
+                <li><button class="answer-button" id="buttonB">B</button></li>
+                <li><button class="answer-button" id="buttonC">C</button></li>
+                <li><button class="answer-button" id="buttonD">D</button></li>
+            </ul>
+        </answer-block>
+        <score-block id="sblock">
+            <form method="POST">
+                <div>
+                    <label>Your Initials</label>
+                    <input type="text" id="initials"/>
+                </div>
+                <button id="submit">Submit</button>
+            </form>
+        </score-block>
+    </main>
 </body>
 
 <footer>

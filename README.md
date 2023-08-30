@@ -1,6 +1,6 @@
 # js-quiz-time
 ## Description
-This is a timed quiz that tests the user's knowledge of the fundamentals of JavaScript and stores high scores.
+This is a timed quiz that tests the user's knowledge of the fundamentals of JavaScript and stores initials and high scores.
 
 ## User Story
 ```
@@ -23,6 +23,9 @@ WHEN the game is over
 THEN I can save my initials and score
 ```
 ## Mock-up
+The following images demonstrate the functionality of the application
+![](/assets/demo1.png)
+![](/assets/demo2.png)
 
 ## Credits
 N/A
